@@ -10,7 +10,6 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"com.ApplicationUp"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				//"json:target/cucumber-report2.json",
 				"json:target/cucumber-report1.json",
 		}
 		)

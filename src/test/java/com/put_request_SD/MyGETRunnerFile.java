@@ -10,10 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"com.put_request_SD"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				//"json:target/cucumber-report3.json",
-				"json:target/cucumber-report8.json",
+				"json:target/cucumber-report9.json",
 		}
 		)
-public class MyPUTRunnerFile {
+public class MyGETRunnerFile {
 
 }
